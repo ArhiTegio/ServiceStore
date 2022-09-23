@@ -1,0 +1,11 @@
+ServerApiTests/
+ServerApi/WebApi/bin/
+ServerApi/WebApi/obj/
+ServerApi/Entity/bin/
+ServerApi/Entity/obj/
+ServerApi/ServerApiTesting/bin/
+ServerApi/ServerApiTesting/obj/
+ServerApi/Server-Data/bin/
+ServerApi/Server-Data/obj/
+ServerApi/Server-Model/bin/
+ServerApi/Server-Model/obj/

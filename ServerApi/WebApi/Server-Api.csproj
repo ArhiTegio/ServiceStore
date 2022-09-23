@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220921173854_Init.cs" />
+    <Compile Remove="Migrations\20220921173854_Init.Designer.cs" />
+    <Compile Remove="Migrations\20220921174433_Init.cs" />
+    <Compile Remove="Migrations\20220921174433_Init.Designer.cs" />
+    <Compile Remove="Migrations\20220921190917_AddTables.cs" />
+    <Compile Remove="Migrations\20220921190917_AddTables.Designer.cs" />
+    <Compile Remove="Migrations\20220921191028_AddTables.cs" />
+    <Compile Remove="Migrations\20220921191028_AddTables.Designer.cs" />
+    <Compile Remove="Migrations\20220921191633_AddTables.cs" />
+    <Compile Remove="Migrations\20220921191633_AddTables.Designer.cs" />
+    <Compile Remove="Migrations\20220921192032_AddTables.cs" />
+    <Compile Remove="Migrations\20220921192032_AddTables.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.29">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.29">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.18" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+    <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\Server-Data\Server-Data.csproj" />
+    <ProjectReference Include="..\Server-Model\Server-Model.csproj" />
+  </ItemGroup>
+
+
+</Project>
